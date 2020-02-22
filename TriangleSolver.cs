@@ -12,15 +12,15 @@ namespace Assignment2_QA
         {
             if ((x == y) && (y == z))
             {
-                return "Equilateral";
+                return "Equilateral Triangle";
             }
 
             if (((x == y) && (y != z)) || ((x!=y) && (y==z)) ||((x==z) && (z != y)))
             {
-                return "Isosceles";
+                return "Isosceles Triangle";
             }
 
-            return "Scalene";
+            return "Scalene Triangle";
         }
     }
 }

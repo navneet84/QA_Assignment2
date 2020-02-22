@@ -57,7 +57,7 @@ namespace Assignment2_QA
                             continue;
                         }
 
-                        Console.WriteLine(TriangleSolver.Analyse(x, y, z) + " Triangle");
+                        Console.WriteLine(TriangleSolver.Analyse(x, y, z));
 
                         break;
 
